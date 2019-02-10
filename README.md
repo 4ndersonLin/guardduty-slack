@@ -1,10 +1,11 @@
 # GuardDuty Slack
+Auto push GuardDuty alarm to slack channel with serverless
 
-# Deployment
+## Deployment
 - lambda: upload python to lambda(py 3.6)
 - cloudwatch event: setting guardduty trigger lambda
 
-# Environment
+## Environment
 ```
 # The Slack web hook url
 slack_hook_url = os.environ['slack_hook_url']
